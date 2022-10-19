@@ -1,10 +1,11 @@
 # Main File
 
 # includes
+include("mojaFunkcija.jl")
 
 # main
 a = [1, 2, 3]
-print(a);
+mojaFunkcija(a)
 
 
 #=
