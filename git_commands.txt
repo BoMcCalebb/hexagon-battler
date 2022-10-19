@@ -1,1 +1,26 @@
-code name.ext
+MOVING TROUGH A DIRECTORY
+cd dir_one/dir_final    # follow the path
+cd ..                   # go to parent dir
+
+LIST ALL FILES FROM A CURRENT DIRECTORY
+
+ls           # all files
+ls -la       # all files with details
+
+
+FILE EDITING
+code name.ext       # create and open a file
+
+
+COMMIT / SAVE CHANGES IN A PROJECT
+git status                          # status of recent file changes
+git add name.ext                    # add a file to commit
+git commit name.ext                 # save changes on name.ext
+git commit name.ext -m "Added..."   # Save changes and add a comment file
+git commit -a -m "Added..."         # Save ALL changes and add a comment file
+git log                             # history of commits
+
+
+CONNECTING A PROJECT [WEB] WITH PC [LOCAL]
+git remote add origin https://github.com/BoMcCalebb/julia-code.git
+git push -u origin main            # Connect 'main' branch with repository on github 
