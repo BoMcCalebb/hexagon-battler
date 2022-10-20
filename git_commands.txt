@@ -24,3 +24,7 @@ git log                             # history of commits
 CONNECTING A PROJECT [WEB] WITH PC [LOCAL]
 git remote add origin https://github.com/BoMcCalebb/julia-code.git
 git push -u origin main            # Connect 'main' branch with repository on github 
+
+LOCAL GIT REMOVAL
+rm -ft .git
+rmdir nameofthedirectory
