@@ -1,11 +1,10 @@
-# Main File
+# main.jl
 
 # includes
-include("mojaFunkcija.jl")
+
 
 # main
-a = [1, 2, 3]
-mojaFunkcija(a)
+
 
 
 #=
