@@ -1,2 +1,2 @@
-# julia-code
-Julia code for University
+# Strategy RPG
+
